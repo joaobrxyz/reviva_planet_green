@@ -5,3 +5,33 @@
     border: none;
     box-sizing: border-box;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#logo {
+    margin: 0 auto;
+    height: 80px;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+nav a svg {
+    width: 24px;
+    height: 24px;
+    fill: #333;
+}
+
+nav a:hover svg {
+    fill: #007bff;
+}
