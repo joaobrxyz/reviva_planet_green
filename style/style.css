@@ -41,6 +41,15 @@ nav a svg {
 nav a:hover svg {
     fill: #007bff;
 }
+
+#secoes ul{
+    display: flex;
+    position: absolute;
+    left:20px;
+    gap: 20px;
+    list-style: none; 
+}
+
 #pagina_inicial {
     display: flex;
     flex-flow: column;
