@@ -14,25 +14,68 @@ header {
     background-color: #dbd5b8;
     border-bottom: 1px solid #060505;
 }
-
+body {
+    background-image: linear-gradient(to right, #1fa133, #1B8C2C, #11591C);
+}
 #logo {
     margin: auto;
     margin-left: 700px;
     height: 80px;
 }
-
 nav a {
     margin: 0 10px;
     color: #333;
     text-decoration: none;
 }
-
 nav a svg {
     width: 24px;
     height: 24px;
     fill: #333;
 }
-
 nav a:hover svg {
     fill: #007bff;
+}
+#pagina_inicial {
+    display: flex;
+    flex-flow: column;
+}
+#frases {
+    display: flex;
+    color: white;
+    font-size: 2em;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+#frases p {
+    margin-bottom: 20px;
+}
+#text_frases {
+    width: 400px;
+    margin-left: 150px;
+}
+#img_arvore {
+    margin-right: 150px;
+}
+#sobre_nos {
+    display: flex;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.258);
+}
+#text_sobrenos {
+    padding: 20px;
+}
+#text_sobrenos h1 {
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.3em;
+    color: #11591C;
+    font-weight: bolder;
+}
+#text_sobrenos p {
+    text-align: justify;
+    font-size: 1.2em;
 }
