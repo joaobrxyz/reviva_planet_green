@@ -5,22 +5,28 @@
     border: none;
     box-sizing: border-box;
 }
-
+body {
+    background-image: linear-gradient(to right, #1fa133, #1B8C2C, #11591C);
+    padding-top: 100px;
+}
 header {
     display: flex;
-    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    justify-content: center;
     align-items: center;
     padding: 10px 20px;
     background-color: #dbd5b8;
     border-bottom: 1px solid #060505;
 }
-body {
-    background-image: linear-gradient(to right, #1fa133, #1B8C2C, #11591C);
-}
 #logo {
-    margin: auto;
-    margin-left: 700px;
     height: 80px;
+}
+nav {
+    position: absolute;
+    right: 20px;
 }
 nav a {
     margin: 0 10px;
