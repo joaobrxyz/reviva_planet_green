@@ -11,12 +11,13 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #f8f9fa;
-    border-bottom: 1px solid #e0e0e0;
+    background-color: #dbd5b8;
+    border-bottom: 1px solid #060505;
 }
 
 #logo {
-    margin: 0 auto;
+    margin: auto;
+    margin-left: 700px;
     height: 80px;
 }
 
