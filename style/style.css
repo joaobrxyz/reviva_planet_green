@@ -5,6 +5,9 @@
     border: none;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-image: linear-gradient(to right, #1fa133, #1B8C2C, #11591C);
     padding-top: 100px;
@@ -41,7 +44,6 @@ nav a svg {
 nav a:hover svg {
     fill: #007bff;
 }
-
 #secoes ul{
     display: flex;
     position: absolute;
@@ -49,7 +51,9 @@ nav a:hover svg {
     gap: 20px;
     list-style: none; 
 }
-
+section {
+    scroll-margin-top: 100px;
+}
 #pagina_inicial {
     display: flex;
     flex-flow: column;
@@ -74,6 +78,7 @@ nav a:hover svg {
 }
 #sobre_nos {
     display: flex;
+    scroll-margin-top: 100px;
     background-color: white;
     width: 90%;
     margin: auto;
