@@ -107,7 +107,7 @@ section {
     text-align: justify;
     font-size: 1.2em;
 }
-#noticias h1{
+#noticias{
     display: flex;
     scroll-margin-top: 100px;
     background-color: white;
@@ -117,7 +117,7 @@ section {
     box-shadow: 3px 3px rgba(0, 0, 0, 0.258);
 }
 #noticias img {
-    width: 700px;
+    width: 500px;
     height: auto;
     border: #060505 2px;
     border-radius: 10px;
