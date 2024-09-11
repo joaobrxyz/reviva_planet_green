@@ -116,3 +116,7 @@ section {
     border-radius: 20px;
     box-shadow: 3px 3px rgba(0, 0, 0, 0.258);
 }
+#noticias img {
+    text-align: justify;
+    font-size: 1.2em;
+}
