@@ -119,7 +119,7 @@ section {
     padding: 20px;
     max-width: 1200px;
 }
-#noticias h1{
+#noticias h2{
     margin-bottom: 20px;
     font-family: "Poppins", sans-serif;
     font-size: 2.3em;
@@ -145,7 +145,7 @@ section {
     margin: 20px;
     text-align: center;
 }
-#noticia img{
+#noticias img{
     width: 100%;
     max-width: 400px;
     height: auto;
