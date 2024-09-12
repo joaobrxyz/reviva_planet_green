@@ -107,7 +107,7 @@ section {
     text-align: justify;
     font-size: 1.2em;
 }
-#noticias h1{
+#noticias{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
