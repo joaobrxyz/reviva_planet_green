@@ -119,3 +119,21 @@ section {
     padding: 20px;
     max-width: 1200px;
 }
+#noticia1{
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+}
+#noticia2{
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+}
+#noticia3{
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+}
