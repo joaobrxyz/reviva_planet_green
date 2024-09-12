@@ -119,7 +119,23 @@ section {
     padding: 20px;
     max-width: 1200px;
 }
-#noticias h2{
+#noticia1 h2{
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.3em;
+    color: #11591C;
+    font-weight: 700;
+    text-align: center;
+}
+#noticia2 h2{
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.3em;
+    color: #11591C;
+    font-weight: 700;
+    text-align: center;
+}
+#noticia3 h2{
     margin-bottom: 20px;
     font-family: "Poppins", sans-serif;
     font-size: 2.3em;
@@ -145,7 +161,7 @@ section {
     margin: 20px;
     text-align: center;
 }
-#noticias img{
+#noticia1 img{
     width: 100%;
     max-width: 400px;
     height: auto;
@@ -153,7 +169,37 @@ section {
     border-radius: 20px;
     margin-bottom: 10px;
 }
-#snoticias p{
+#noticia2 img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: 2px solid #060505;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+#noticia3 img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: 2px solid #060505;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+#noticia1 p{
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: justify;
+    color: #333;
+    margin: 0 10px;
+}
+#noticia2 p{
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: justify;
+    color: #333;
+    margin: 0 10px;
+}
+#noticia3 p{
     font-size: 1.1em;
     line-height: 1.6;
     text-align: justify;
