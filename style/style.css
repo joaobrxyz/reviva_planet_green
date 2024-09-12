@@ -146,3 +146,15 @@ section {
 .noticia a:hover {
     text-decoration: underline;
 }
+footer {
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 20px;
+    background-color: #dbd5b8;
+    border-bottom: 1px solid #060505;
+    line-height: 1.5em;
+}
+footer div p {
+    justify-content: center;
+}
