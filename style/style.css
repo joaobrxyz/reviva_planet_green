@@ -114,11 +114,17 @@ section {
     background-color: #fff;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 #noticias h1 {
     text-align: center;
-    color: #333;
+    color: #11591C;
     margin-bottom: 40px;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.3em;
+    font-weight: bolder;
 }
 .noticia1, .noticia2, .noticia3 {
     margin-bottom: 40px;
@@ -145,10 +151,12 @@ section {
     margin: 0;
     font-size: 1.6em;
     color: #333;
+    max-width: 400px;
 }
 .noticia1 p, .noticia2 p, .noticia3 p {
     color: #666;
     line-height: 1.6em;
+    max-width: 400px;
 }
 .noticia1 p:last-child, .noticia2 p:last-child, .noticia3 p:last-child {
     font-style: italic;
