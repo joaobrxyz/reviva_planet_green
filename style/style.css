@@ -116,6 +116,60 @@ section {
     text-align: justify;
     font-size: 1.2em;
 }
+
+#impactos {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#impactos h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.lista.reflorestamento {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.lista.reflorestamento h2 {
+    display: flex;
+    align-items: center;
+    font-size: 1.8em;
+    color: #27ae60;
+    margin-bottom: 15px;
+}
+
+.lista.reflorestamento h2 img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.lista.reflorestamento ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista.reflorestamento ul li {
+    font-size: 1.2em;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+.lista.reflorestamento ul li strong {
+    color: #27ae60;
+}
+
+
 #div_noticias {
     display: flex;
     justify-content: center;
