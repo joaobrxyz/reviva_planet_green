@@ -97,25 +97,6 @@ section {
     font-size: 3em;   
     letter-spacing: 8px;
 }
-#frases {
-    display: flex;
-    background-image: linear-gradient(to bottom, #3dbb50, #1B8C2C, #11591C);
-    color: white;
-    font-size: 2em;
-    justify-content: space-between;
-    margin-bottom: 40px;
-    padding-top: 40px;
-}
-#frases p {
-    margin-bottom: 20px;
-}
-#text_frases {
-    width: 400px;
-    margin-left: 150px;
-}
-#img_arvore {
-    margin-right: 150px;
-}
 #sobre_nos {
     display: flex;
     background-image: url(../imagens/background_sobre.jfif);
@@ -242,9 +223,29 @@ section {
 .noticia a:hover {
     text-decoration: underline;
 }
+#final {
+    background-image: url(../imagens/background_final.jpg);
+    padding-top: 12vh;
+    height: 82vh;
+}
+#frases {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.653);
+    font-size: 2.1em;
+    width: 600px;
+    margin-left: 20px;
+    padding: 20px;
+}
+#frases p {
+    margin-bottom: 20px;
+}
+#text_frases {
+    width: 500px;
+}
 footer {
     top: 0;
     width: 100vw;
+    height: 18vh;
     z-index: 1000;
     padding: 10px 20px;
     border-bottom: 1px solid #060505;
