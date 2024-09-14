@@ -70,7 +70,7 @@ nav a:hover svg {
 section {
     height: 100vh;
     background-size: cover;
-    background-attachment: fixed;
+    
     background-blend-mode: darken;
     background-color: rgba(0, 0, 0, 0.207);
     padding-top: 80px;
