@@ -26,7 +26,7 @@ header {
     background-color: #000000aa;
 }
 #logo {
-    height: 66px;
+    height: 100%;
     padding: 2px;
     margin-left: 20px;
 }
@@ -114,31 +114,43 @@ section {
 }
 #sobre_nos {
     display: flex;
-    width: 100%;
-    padding-left: 100px;
-    padding-right: 20px;
-    box-shadow: 1px 1px rgba(255, 251, 251, 0.059);
     background-image: url(../imagens/background_sobre.jfif);
     color: white;
 }
-#text_sobrenos {
-    padding: 20px;
+#div_sobre_nos {
+    background-color: rgba(0, 0, 0, 0.653);
+    padding-left: 50px;
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
 }
-#text_sobrenos h1 {
+#text_sobrenos {
+    display: flex;
+    align-items: center;
+}
+#div_sobre_nos h1 {
     margin-bottom: 20px;
     font-family: "Poppins", sans-serif;
     font-size: 2.3em;
-    color: #11591C;
+    color: #20a935;
+    text-align: center;
     font-weight: bolder;
+    margin-top: 5px;
 }
 #text_sobrenos p {
+    display: inline-block;
     text-align: justify;
     font-size: 1.2em;
+    width: 40%;
+    margin-right: 15px;
+    margin-bottom: 90px;
 }
-
-#id_sobre_nos{
-    background-color:transparent;
-
+#video_sobrenos {
+    width: 58%;
+}
+#video_sobrenos iframe {
+    width: 100%;
+}
 #impactos {
     background-image: url(../imagens/background_impactos.png);
     display: flex;
