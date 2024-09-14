@@ -135,6 +135,10 @@ section {
     text-align: justify;
     font-size: 1.2em;
 }
+
+#id_sobre_nos{
+    background-color:transparent;
+
 #impactos {
     background-image: url(../imagens/background_impactos.png);
     display: flex;
