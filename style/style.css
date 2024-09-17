@@ -117,7 +117,7 @@ section {
 #div_sobre_nos h1 {
     margin-bottom: 20px;
     font-family: "Poppins", sans-serif;
-    font-size: 2.3em;
+    font-size: 2.5vw;
     color: #20a935;
     text-align: center;
     font-weight: bolder;
@@ -126,7 +126,7 @@ section {
 #text_sobrenos p {
     display: inline-block;
     text-align: justify;
-    font-size: 122.5%;
+    font-size: 1.3vw;
     width: 40%;
     margin-right: 15px;
     margin-bottom: 90px;
