@@ -143,6 +143,8 @@ section {
     align-items: center;
     justify-content: center;
 }
+
+
 #reflorestamento {
     display: flex;
     align-items: center;
@@ -182,12 +184,22 @@ section {
     width: 14%;
     margin-right: 10px;
 }
+.container{
+    background-color: rgba(0, 0, 0, 0.653);
+    padding: 20px;
+    border-radius: 15px; 
+    max-width: 1200px; 
+    margin: 20px auto;
+}
+#noticias{
+    background-image: url(../imagens/background_vegetacao.jpeg);
+}
 #div_noticias {
     display: flex;
     justify-content: center;
 }
 #noticias h1 {
-    margin-left: 210px;
+    text-align: center;
     color: #11591C;
     margin-bottom: 40px;
     font-family: "Poppins", sans-serif;
@@ -215,6 +227,7 @@ section {
 .noticia p {
     width: 338px;
     text-align: justify;
+    color: white;
 }
 .noticia a {
     color: #11591C;
@@ -223,6 +236,12 @@ section {
 .noticia a:hover {
     text-decoration: underline;
 }
+
+
+
+
+
+
 #final {
     background-image: url(../imagens/background_final.jpg);
     padding-top: 12vh;
@@ -242,6 +261,8 @@ section {
 #text_frases {
     width: 500px;
 }
+
+
 footer {
     top: 0;
     width: 100vw;
