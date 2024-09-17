@@ -265,10 +265,19 @@ footer {
     height: 18vh;
     z-index: 1000;
     padding: 10px 20px;
-    border-bottom: 1px solid #060505;
+    border-bottom: 1px solid #cdcb3d;
     line-height: 1.5em;
-    background-color: #dbd5b8;
+    background-color: rgba(0, 0, 0, 0.900);
+    color: #cdcb3d;
 }
 footer div p {
     justify-content: center;
+}
+#social{
+    display: flex;
+    justify-content: center;  
+    gap: 20px;
+    padding: 20px;
+    position: absolute;
+    right: 20px;
 }
