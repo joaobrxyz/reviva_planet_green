@@ -187,7 +187,7 @@ section {
     padding: 20px;
     border-radius: 15px; 
     max-width: 1200px; 
-    margin: 20px auto;
+    margin: 5px auto;
 }
 #noticias{
     background-image: url(../imagens/background_vegetacao.jpeg);
@@ -198,38 +198,44 @@ section {
 }
 #noticias h1 {
     text-align: center;
-    color: #11591C;
+    color: #228b22;
     margin-bottom: 40px;
-    font-family: "Poppins", sans-serif;
-    font-size: 2.4em;
-    font-weight: bolder;
+    font-family: 'now', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
 }
 .noticia {
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     margin-bottom: 40px;
-    padding: 20px;
-    padding-top: 0px;
+    padding: 10px;
+    padding-top: 0;
 }
 .noticia img {
     width: 338px;
     height: 210px;
 }
 .noticia h2 {
-    border-top: 1px solid #E66C2D;
+    border-top: 1px solid #000000aa;
     margin-top: 10px;
     padding-top: 20px;
     margin-bottom: 10px;
     width: 338px;
+    background-color: #D2B48C;
+    font-size: 1em;
 }
 .noticia p {
     width: 338px;
     text-align: justify;
     color: white;
+    background-color: #D2B48C;
+    padding: 10px;
+    font-size: 0.9em;
 }
 .noticia a {
-    color: #11591C;
+    color: #228b22;
     text-decoration: none;
+    background-color: #D2B48C;
 }
 .noticia a:hover {
     text-decoration: underline;
