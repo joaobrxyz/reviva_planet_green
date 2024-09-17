@@ -132,10 +132,10 @@ section {
     margin-bottom: 90px;
 }
 #video_sobrenos {
-    width: 58%;
+    width: 50vw;
 }
 #video_sobrenos iframe {
-    width: 100%;
+    width: 50vw;
 }
 #impactos {
     background-image: url(../imagens/background_impactos.png);
