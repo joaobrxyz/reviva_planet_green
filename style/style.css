@@ -143,8 +143,6 @@ section {
     align-items: center;
     justify-content: center;
 }
-
-
 #reflorestamento {
     display: flex;
     align-items: center;
@@ -236,12 +234,6 @@ section {
 .noticia a:hover {
     text-decoration: underline;
 }
-
-
-
-
-
-
 #final {
     background-image: url(../imagens/background_final.jpg);
     padding-top: 12vh;
@@ -261,8 +253,6 @@ section {
 #text_frases {
     width: 500px;
 }
-
-
 footer {
     top: 0;
     width: 100vw;
