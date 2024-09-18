@@ -186,15 +186,19 @@ section {
 }
 .container{
     background-color: rgba(0, 0, 0, 0.653);
-    padding: 20px;
     border-radius: 15px; 
     width: 90%; 
-    height: 90%;
+    height: 100%;
     margin: auto;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
 }
 #noticias{
     background-image: url(../imagens/background_notícias.jfif);
     height: 130vh;
+    padding-top: 90px;
+    padding-bottom: 20px;
 }
 #div_noticias {
     display: flex;
@@ -207,6 +211,7 @@ section {
     font-family: 'Poppins';
     font-size: 2.7em;
     font-weight: bold;
+    padding: 30px;
 }
 .noticia {
     display: flex;
