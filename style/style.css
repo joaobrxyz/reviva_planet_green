@@ -133,9 +133,11 @@ section {
 }
 #video_sobrenos {
     width: 50vw;
+    height: 60vh;
 }
 #video_sobrenos iframe {
     width: 50vw;
+    height: 60vh;
 }
 #impactos {
     background-image: url(../imagens/background_impactos.png);
@@ -149,7 +151,7 @@ section {
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.653);
     border-radius: 15px;
-    width: 1350px;
+    width: 90%;
     height: 90%;
 }
 #reflorestamento h2 {
@@ -187,11 +189,12 @@ section {
     padding: 20px;
     border-radius: 15px; 
     width: 90%; 
-    margin: 5px auto;
+    height: 90%;
+    margin: auto;
 }
 #noticias{
     background-image: url(../imagens/background_notícias.jfif);
-    height: 120vh;
+    height: 130vh;
 }
 #div_noticias {
     display: flex;
@@ -282,9 +285,7 @@ footer {
     line-height: 1.5em;
     padding: 20px;
     text-align: left;
-    top: 0;
     width: 100vw;
-    z-index: 1000;
 }
 footer i {
     font-size: 24px;
