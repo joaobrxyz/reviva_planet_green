@@ -275,24 +275,44 @@ section {
     width: 500px;
 }
 footer {
+    background-color: black;
+    color: #cdcb3d;
+    font-family: "Old Standard TT", serif;
+    height: 18vh;
+    line-height: 1.5em;
+    padding: 20px;
+    text-align: left;
     top: 0;
     width: 100vw;
-    height: 18vh;
     z-index: 1000;
-    padding: 10px 20px;
-    border-bottom: 1px solid #cdcb3d;
-    line-height: 1.5em;
-    background-color: rgba(0, 0, 0, 0.900);
-    color: #cdcb3d;
 }
-footer div p {
-    justify-content: center;
+footer i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #333; 
 }
-#social{
-    display: flex;
-    justify-content: center;  
-    gap: 20px;
-    padding: 20px;
+footer a {
+    text-decoration: none;
+    color: #228b22; 
+}
+.contato i {
+    color: #ff6347;
+    text-align: center;
+}
+.logo img {
+    width: 50px;
+    text-align: right;
+}
+#container-a, #container-b{
+    display: inline-block;
+}
+#container-a{
     position: absolute;
-    right: 20px;
+    width: 100%;
+    left:auto
+}
+#container-b{
+    position: absolute;
+    width: 98%;
+    right: auto;
 }
