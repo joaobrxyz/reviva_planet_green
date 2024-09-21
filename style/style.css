@@ -82,7 +82,7 @@ section {
     padding-top: 80px;
 }
 #pagina_inicial {
-    background-image: url(../imagens/background_inicial.png);
+    background-image: url(../imagens/background_inicial.svg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,7 +99,7 @@ section {
 }
 #sobre_nos {
     display: flex;
-    background-image: url(../imagens/background_sobre.jfif);
+    background-image: url(../imagens/background_sobre.jpg);
     color: white;
 }
 #div_sobre_nos {
@@ -140,7 +140,7 @@ section {
     height: 60vh;
 }
 #impactos {
-    background-image: url(../imagens/background_impactos.png);
+    background-image: url(../imagens/background_impactos.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -195,7 +195,7 @@ section {
     flex-flow: column;
 }
 #noticias{
-    background-image: url(../imagens/background_notícias.jfif);
+    background-image: url(../imagens/background_notícias.jpg);
     height: 130vh;
     padding-top: 90px;
     padding-bottom: 20px;
@@ -264,7 +264,7 @@ section {
     text-decoration: underline;
 }
 #final {
-    background-image: url(../imagens/background_final.jpg);
+    background-image: url(../imagens/background_final.svg);
     padding-top: 12vh;
     height: 82vh;
 }
