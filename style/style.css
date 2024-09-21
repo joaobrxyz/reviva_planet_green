@@ -82,7 +82,7 @@ section {
     padding-top: 80px;
 }
 #pagina_inicial {
-    background-image: url(../imagens/background_inicial.svg);
+    background-image: url(../imagens/background_inicial.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -264,7 +264,7 @@ section {
     text-decoration: underline;
 }
 #final {
-    background-image: url(../imagens/background_final.svg);
+    background-image: url(../imagens/background_final.jpg);
     padding-top: 12vh;
     height: 82vh;
 }
