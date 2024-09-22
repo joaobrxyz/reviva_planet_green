@@ -81,6 +81,18 @@ section {
     background-color: rgba(0, 0, 0, 0.207);
     padding-top: 80px;
 }
+.hidden {
+    opacity: 0;
+    filter: blur(30px);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+.show {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+    transition: all 1s;
+}
 #pagina_inicial {
     background-image: url(../imagens/background_inicial.jpg);
     display: flex;

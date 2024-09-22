@@ -50,6 +50,9 @@
     }
 }
 @media (max-width: 677px) {
+    section {
+        width: 100%;
+    }
     #secoes {
         display: none;
     }
@@ -61,10 +64,10 @@
         height: 120vh;
     }
     #div_sobre_nos {
-        padding: 20px;
+        padding: 0px;
     }
     #text_sobrenos p {
-        padding: 20px;
+        padding: 0px;
         font-size: 1em;
     }
     #video_sobrenos {
