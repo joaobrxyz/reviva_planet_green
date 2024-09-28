@@ -143,28 +143,36 @@
     }
     footer {
         padding: 10px;
+        position: relative;
     }
     #container-a {
         display: flex;
         flex-flow: column;
+        width: 54vw;
     }
     #container-a p {
         display: flex;
         flex-flow: nowrap;
-        width: 269.67px;
+        width: 54vw;
     }
     #container-b {
+        position: absolute;
         flex-flow: row-reverse;
         align-items: center;
-        height: 100%;
+        width: 46vw;
+        height: 18vh;
+        transform: translateX(100%);
     }
     footer i svg {
-        width: 21px;
-        height: 21px;
+        width: 23px;
+        height: 23px;
+        margin: 1px;
     }
     .redes-sociais {
+       position: absolute;
        width: 50px;
-       padding-left: 28vw;
+       margin-right: 10px;
+    
     }
     .fa-instagram {
         margin: 0;
@@ -172,6 +180,9 @@
     #copy {
         position: absolute;
         bottom: 0;
-        margin-right: 19.5vw;
+        margin-right: 38vw;
+    }
+    #container-c {
+        display: none;
     }
 }
