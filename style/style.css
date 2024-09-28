@@ -14,6 +14,9 @@
 html {
     scroll-behavior: smooth;
 }
+body {
+    width: 100%;   
+}
 header {
     display: flex;
     position: fixed;
@@ -24,9 +27,6 @@ header {
     z-index: 1000;
     padding: 10px 20px;
     background-color: #000000aa;
-}
-html, body {
-    overflow-x: hidden !important;
 }
 #logo {
     height: 100%;
@@ -78,7 +78,7 @@ nav a:hover svg {
 }
 section {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-size: cover;
     background-blend-mode: darken;
     background-color: rgba(0, 0, 0, 0.207);
@@ -299,6 +299,9 @@ section {
     width: 500px;
 }
 footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: black;
     color: #cdcb3d;
     font-family: "Old Standard TT", serif;
@@ -306,34 +309,31 @@ footer {
     line-height: 1.5em;
     padding: 20px;
     text-align: left;
-    width: 100vw;
+    width: 100%;
 }
 footer i {
-    font-size: 24px;
     margin-right: 10px;
-    color: #333; 
 }
 footer a {
-    text-decoration: none;
     color: #228b22; 
 }
-.contato i {
-    color: #ff6347;
-    text-align: center;
+footer a svg {
+    height: 18px;
+    width: 18px;
+    gap: 10px;
 }
 .logo img {
     width: 50px;
-    text-align: right;
-}
-#container-a, #container-b{
-    display: inline-block;
-}
-#container-a{
-    position: absolute;
-    width: 100%;
-    left:auto
 }
 #container-b{
-    width: 98%;
-    right: auto;
+    transform: translateX(-60.5px);
+    display: flex;
+    flex-flow: column;
+}
+#container-b div {
+    margin-top: 20px;
+    text-align: center;
+}
+.fa-linkedin {
+    margin: 0;
 }
