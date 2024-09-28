@@ -146,10 +146,12 @@
     #container-a {
         display: flex;
         flex-flow: column;
+        width: 292px;
     }
     #container-b {
         flex-flow: row-reverse;
         align-items: center;
+        height: 100%;
     }
     footer i svg {
         width: 21px;
@@ -157,13 +159,14 @@
     }
     .redes-sociais {
        width: 60px;
-       padding-left: 50px;
+       padding-left: 12vw;
     }
     .fa-instagram {
         margin: 0;
     }
     #copy {
-        margin-top: auto;
-        height: 100%;
+        position: absolute;
+        bottom: 0;
+        margin-right: 9.5vw;
     }
 }
