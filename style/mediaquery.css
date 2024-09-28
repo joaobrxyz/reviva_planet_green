@@ -86,7 +86,7 @@
         cursor: pointer;
     }
     .container {
-        width: 100vw !important;
+        width: 100% !important;
         padding: 10px;
     }
     #sobre_nos {
@@ -100,7 +100,7 @@
         font-size: 1em;
     }
     #video_sobrenos {
-        width: 100vw;
+        width: 100%;
         height: 40vh;
     }
     #video_sobrenos iframe {
@@ -133,8 +133,9 @@
         margin-bottom: 10px;
     }
     #frases {
-        width: 100vw;
-        margin-left: 2px;
+        width: 100%;
+        padding-left: 2px;
+        margin: 0;
         padding-right: 0px;
     }  
     #text_frases {
@@ -146,7 +147,11 @@
     #container-a {
         display: flex;
         flex-flow: column;
-        width: 292px;
+    }
+    #container-a p {
+        display: flex;
+        flex-flow: nowrap;
+        width: 269.67px;
     }
     #container-b {
         flex-flow: row-reverse;
@@ -158,8 +163,8 @@
         height: 21px;
     }
     .redes-sociais {
-       width: 60px;
-       padding-left: 12vw;
+       width: 50px;
+       padding-left: 28vw;
     }
     .fa-instagram {
         margin: 0;
@@ -167,6 +172,6 @@
     #copy {
         position: absolute;
         bottom: 0;
-        margin-right: 9.5vw;
+        margin-right: 19.5vw;
     }
 }
