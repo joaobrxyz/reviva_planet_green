@@ -65,11 +65,14 @@
         display: none;
     }
     #redes {
-        display: flex;
+        display: none;
         position: relative;
         justify-content: center;
         gap: 5px;
         margin-right: 20px;
+    }
+    #logo {
+        margin-left: 5px;
     }
     #menu_mobile {
         display: block; 
@@ -136,5 +139,31 @@
     }  
     #text_frases {
         width: 410px;
+    }
+    footer {
+        padding: 10px;
+    }
+    #container-a {
+        display: flex;
+        flex-flow: column;
+    }
+    #container-b {
+        flex-flow: row-reverse;
+        align-items: center;
+    }
+    footer i svg {
+        width: 21px;
+        height: 21px;
+    }
+    .redes-sociais {
+       width: 60px;
+       padding-left: 50px;
+    }
+    .fa-instagram {
+        margin: 0;
+    }
+    #copy {
+        margin-top: auto;
+        height: 100%;
     }
 }
