@@ -279,6 +279,7 @@ section {
 .noticia a:hover {
     text-decoration: underline;
 }
+
 #final {
     background-image: url(../imagens/background_final.jpg);
     padding-top: 12vh;
