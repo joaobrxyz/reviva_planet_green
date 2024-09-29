@@ -161,7 +161,7 @@
     #container-a {
         display: flex;
         flex-flow: column;
-        width: 60vw;
+        width: 80vw;
     }
     #container-a p {
         display: flex;
