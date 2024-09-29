@@ -1,4 +1,7 @@
 @media (max-width: 980px) {
+    html, body {
+        overflow-x: hidden;
+    }
     #redes {
         display: none;
     }
@@ -129,7 +132,6 @@
     .noticia {
         width: 450px;
         margin: auto;
-        margin-left: 10px;
         height: 650px;
     }
     .noticia img {

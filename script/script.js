@@ -27,7 +27,7 @@ function initSwiper() {
         grabCursor: true,
         spaceBetween: 15, // Espaçamento entre os slides
         slidesPerView: 1, // Quantidade de slides visíveis por vez
-        centeredSlides: true, // Centraliza o slide ativo
+        centeredSlides: true // Centraliza o slide ativo
     })
     swiper.on('reachBeginning', function () {
         swiper.allowSlidePrev = false; // Desativa a navegação para a esquerda
