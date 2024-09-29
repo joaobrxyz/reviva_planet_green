@@ -65,6 +65,10 @@
         gap: 5px;
         margin-right: 20px;
     }
+    header {
+        display: flex;
+        flex-flow: wrap;
+    }
     #logo {
         margin-left: 5px;
     }
@@ -75,21 +79,22 @@
         right: 20px;
         color: green;
     }
+    nav {
+        margin-top: 80px;
+    }
     #secoes {
         display: none;
         position: absolute;
         background-color: #000000aa;
-        width: 110%;
+        width: 100vw;
         margin: 0;
     }
     #secoes ul {
         display: flex;
         flex-flow: column;
         background-color: #000000aa;
-        width: 100%;
+        width: 100vw;
         margin: 0;
-        position: absolute;
-        margin-top: 225px;
     }
     #secoes ul li {
         display: flex;
