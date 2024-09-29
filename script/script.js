@@ -44,3 +44,16 @@ function checkScreenSize() {
 }
 checkScreenSize()
 window.addEventListener('resize', checkScreenSize)
+
+const menu_mobile = document.querySelector("#menu_mobile")
+const secoes = document.querySelector("#secoes")
+menu_mobile.addEventListener("click",()=>{
+    if (secoes.style.display == "none" || secoes.style.display == ""){
+        secoes.style.display = "flex"
+    } else {
+        secoes.style.display = "none"
+    }
+})
+addEventListener("resize",()=>{
+    secoes.style.display = ""
+})

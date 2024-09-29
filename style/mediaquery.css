@@ -58,9 +58,6 @@
     nav a svg {
         fill: green;
     }
-    #secoes {
-        display: none;
-    }
     #redes {
         display: none;
         position: relative;
@@ -77,6 +74,28 @@
         position: absolute;
         right: 20px;
         color: green;
+    }
+    #secoes {
+        display: none;
+        position: absolute;
+        background-color: #000000aa;
+        width: 110%;
+        margin: 0;
+    }
+    #secoes ul {
+        display: flex;
+        flex-flow: column;
+        background-color: #000000aa;
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        margin-top: 225px;
+    }
+    #secoes ul li {
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid gray;
+        padding: 5px;
     }
     #menu_mobile span {
         font-size: 2.5em;
